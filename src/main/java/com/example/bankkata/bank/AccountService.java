@@ -1,0 +1,11 @@
+package com.example.bankkata.bank;
+
+/**
+ * @author $ {USER}
+ **/
+public interface AccountService {
+
+    void deposit(int amount);
+    void withdraw(int amount);
+    void printStatement();
+}
